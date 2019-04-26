@@ -110,6 +110,8 @@ header nav a {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    display: flex;
+    flex-direction: column;
 }
 
 .middle-content h2 {
@@ -121,7 +123,6 @@ header nav a {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 
 .middle-content .boxes .box {
@@ -130,9 +131,6 @@ header nav a {
     background: black;
     margin: 20px 2.5%;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .middle-content .boxes .box1 {
