@@ -81,6 +81,7 @@ header {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
+    border: 1px solid red;
 }
 
 nav {
@@ -92,3 +93,4 @@ header nav a {
     text-decoration: none;
     padding-left: 60px;
 }
+
